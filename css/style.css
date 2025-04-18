@@ -1,5 +1,4 @@
 body {
-  /* background-color: #ffeaea; */
   background-color: white;
   font-family: Poppins, sans-serif;
   color: hsl(230, 8%, 45%);
@@ -14,16 +13,10 @@ body::after {
   height: 100%;
   position: absolute;
   bottom: 0;
-  /* background-image: linear-gradient(to top, rgb(250, 165, 165), rgba(255, 234, 234, 0)); */
   z-index: -1;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: black;
 }
 
@@ -54,7 +47,7 @@ footer {
   top: 40%;
   transform: translateY(-50%);
   z-index: 99;
-  border-left: 3px solid #fa8181;
+  border-left: 3px solid #000000;
   padding: 0;
 }
 
@@ -64,22 +57,20 @@ footer {
 }
 
 .navbar {
-  /* position: absolute; */
   top: 0;
   z-index: 99;
   width: 100%;
 }
 
 nav .active {
-  color: #fa8181 !important;
+  color: #000000 !important;
 }
 
 nav .active::after {
   content: "";
   display: block;
   width: 50%;
-  border-bottom: 3px solid #fa8181;
-  margin: ;
+  border-bottom: 3px solid #000000;
   padding-bottom: 5px;
   margin-bottom: -8px;
 }
@@ -94,10 +85,7 @@ nav .active::after {
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
   margin-bottom: 20px;
-}
-
-#about .profile {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #about .profile img {
@@ -106,13 +94,13 @@ nav .active::after {
 
 #about .download {
   border-radius: 5px;
-  background-color: #fa8181;
-  border: #fa8181;
+  background-color: #000000;
+  border: #000000;
   padding: 10px 15px;
 }
 
 #about .download:hover {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #about .download span {
@@ -132,7 +120,7 @@ nav .active::after {
 }
 
 #skills .dropdown:hover {
-  border-bottom: 3px solid #fa8181;
+  border-bottom: 3px solid #000000;
   margin-bottom: -3px;
 }
 
@@ -166,7 +154,7 @@ nav .active::after {
   content: "";
   display: block;
   width: 60%;
-  border-bottom: 2px solid #f8c8c8;
+  border-bottom: 2px solid #333333;
   margin: auto;
   padding-bottom: 5px;
   margin-bottom: -8px;
@@ -182,7 +170,7 @@ nav .active::after {
 }
 
 #experience .card:hover {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #experience .card-body {
@@ -201,15 +189,14 @@ nav .active::after {
 
 #experience .card span {
   font-size: 12px;
-  color: #fa8181;
-  text-decoration: none;
+  color: #000000;
   cursor: pointer;
   position: absolute;
   bottom: 10px;
 }
 
 #experience .card span:hover {
-  border-bottom: 0.5px solid #fa8181;
+  border-bottom: 0.5px solid #000000;
 }
 
 #experience .card span img {
@@ -220,17 +207,17 @@ nav .active::after {
 #experience .modal-content {
   background-color: white;
   border-radius: 15px;
-  box-shadow: 0 0.1px 3px 0.5px #fa8181;
+  box-shadow: 0 0.1px 3px 0.5px #000000;
   border: none;
 }
 
 #experience .modal-header {
   padding-bottom: 0;
-  border-bottom: 1px solid #fa8181;
+  border-bottom: 1px solid #000000;
 }
 
 #experience .modal-header h5 {
-  color: #fa8181;
+  color: #000000;
   font-weight: bold;
 }
 
@@ -242,7 +229,7 @@ nav .active::after {
   position: absolute;
   top: 20px;
   right: 20px;
-  color: #fa8181 !important;
+  color: #000000 !important;
 }
 
 #experience .learn img {
@@ -254,6 +241,30 @@ nav .active::after {
   font-size: 14px;
 }
 
+#experience .experience-button {
+  border-radius: 5px;
+  background-color: #000000;
+  border: #000000;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+#experience .experience-button:hover {
+  box-shadow: 0 0.1px 6px 0.5px #000000;
+}
+
+#experience .experience-button span {
+  margin-right: 5px;
+}
+
+#experience .experience-button img {
+  width: 20px;
+}
+
+
 #portfolio .card {
   border-radius: 15px;
   overflow: hidden;
@@ -262,7 +273,7 @@ nav .active::after {
 }
 
 #portfolio .card:hover {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #portfolio .card p {
@@ -270,21 +281,20 @@ nav .active::after {
 }
 
 #portfolio .card a {
-  color: #fa8181;
+  color: #000000;
   position: absolute;
   bottom: 15px;
 }
 
 #portfolio .portfolio-button {
   border-radius: 5px;
-  background-color: #fa8181;
-  border: #fa8181;
+  background-color: #000000;
+  border: #000000;
   padding: 10px 15px;
-  /* width: 200px; */
 }
 
 #portfolio .portfolio-button:hover {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #portfolio .portfolio-button span {
@@ -316,7 +326,7 @@ nav .active::after {
 }
 
 #blog .caption a {
-  color: #fa8181;
+  color: #000000;
   font-size: 14px;
 }
 
@@ -340,7 +350,7 @@ nav .active::after {
 }
 
 #contact .form {
-  background-color: #ffeaea;
+  background-color: #f5f5f5;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -357,19 +367,18 @@ nav .active::after {
   border: none;
   width: 100%;
   outline: none;
-  border-bottom: 2px solid #ffc3c3;
-  border-color: transparent;
+  border-bottom: 2px solid #333333;
 }
 
 #contact .submit a {
   text-decoration: none;
-  background-color: #fa8181;
+  background-color: #000000;
   padding: 5px 10px;
   border-radius: 5px;
 }
 
 #contact .submit a:hover {
-  box-shadow: 0 0.1px 6px 0.5px #fa8181;
+  box-shadow: 0 0.1px 6px 0.5px #000000;
 }
 
 #contact .submit span {
@@ -384,7 +393,7 @@ nav .active::after {
 }
 
 footer {
-  background-color: #fa8181;
+  background-color: #000000;
   color: white;
 }
 
@@ -409,7 +418,7 @@ footer img {
   }
 
   .navbar-brand {
-    color: #fa8181 !important;
+    color: #000000 !important;
   }
 
   .nav-link {
@@ -417,7 +426,7 @@ footer img {
   }
 
   .nav-link:hover {
-    color: #fa8181 !important;
+    color: #000000 !important;
   }
 
   nav .active::after {
@@ -428,7 +437,7 @@ footer img {
     content: "";
     display: block;
     width: 50%;
-    border-bottom: 3px solid #fa8181;
+    border-bottom: 3px solid #000000;
     margin: auto;
     padding-bottom: 5px;
     margin-bottom: -8px;
@@ -449,7 +458,7 @@ footer img {
     top: 50%;
     transform: translateY(-50%);
     z-index: 99;
-    border-left: 3px solid #fa8181;
+    border-left: 3px solid #000000;
     padding-top: 0;
   }
 
