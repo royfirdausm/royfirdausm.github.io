@@ -270,6 +270,7 @@ nav .active::after {
   overflow: hidden;
   margin-bottom: 20px;
   position: relative;
+  height: 400px;
 }
 
 #portfolio .card:hover {
